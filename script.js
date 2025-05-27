@@ -5,7 +5,7 @@ let timer = null
 function stopwatch(){
     seconds++
     if(seconds == 0){
-        seconds = 0
+        seconds = 60
         minutes++
         if(minutes == 60){
             minutes = 0
